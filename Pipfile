@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+fastapi = "*"
+jinja2 = "*"
+aiofiles = "*"
+dictor = "*"
+uvicorn = "*"
+psycopg2 = "*"
+alembic = "*"
+requests = "*"
+wikipedia = "*"
+gtts ="*"
+beautifulsoup4 = "*2"
+
+[requires]
+python_version = "3.7"
+
+[scripts]
+edith = "python run.py"
